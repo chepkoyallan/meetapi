@@ -1,0 +1,27 @@
+{
+  "name": "meetfrontend",
+  "version": "1.0.0",
+  "description": "Meet proffesional platform",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:proxy-and-server": "./scripts/start-proxy-and-server.sh",
+    "start:proxy-and-server-inspect": "./scripts/start-proxy-and-server.sh --inspect",
+    "mock:server": "node server/dist/server.js build",
+    "mock:server:inspect": "node inspect server/dist/server.js build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chepkoyallan/meetapi.git"
+  },
+  "keywords": [
+    "meeting",
+    "poffessional"
+  ],
+  "author": "Allan Chepkoy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chepkoyallan/meetapi/issues"
+  },
+  "homepage": "https://github.com/chepkoyallan/meetapi#readme"
+}
